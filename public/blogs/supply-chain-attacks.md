@@ -3,7 +3,7 @@
 A supply chain attack happens when attackers compromise a dependency, package, or tool you trust.
 Attackers infiltrate a vendor or component before it reaches you, so the compromise is already baked in.
 
-![IDOR diagram](/blogs/img/supply-chain/supply-chain.png)
+![Supply chain diagram](/blogs/img/supply-chain/supply-chain.png)
 ---
 
 ## How does it work?
