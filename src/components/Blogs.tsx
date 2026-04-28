@@ -13,6 +13,12 @@ interface Blog {
 
 const blogs: Blog[] = [
   {
+    slug: 'supply-chain-attacks',
+    title: 'Supply Chain Attacks on Software Dependencies',
+    excerpt: 'Attackers don’t hack your app—they poison what it trusts. A quick breakdown of how dependency-based supply chain attacks work, why they’re effective, and what the Axios npm compromise revealed.',
+    author: 'Matjaz Madon',
+  },
+  {
     slug: 'emapt',
     title: 'Siber Güvenlik Sertifikaları #3: eMAPT Sınavının Anatomisi',
     excerpt: 'Webin kalabalık dünyasından sıyrılıp mobilin daha özel dünyasına adım atıyoruz. eMAPT sertifikasını tüm detayları ve Frida pratikleriyle inceliyoruz.',
