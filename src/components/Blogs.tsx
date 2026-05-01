@@ -13,6 +13,36 @@ interface Blog {
 
 const blogs: Blog[] = [
   {
+    slug: 'lazarus',
+    title: 'Lazarus Group (APT 38) Rapor Analizi',
+    excerpt: 'Bu bölümde, kurduğumuz bu devasa yapının içine girip, izlemek istediğimiz cihazları sisteme nasıl bağlayacağımızı göreceğiz.',
+    author: 'Güven Emre Keskin',
+  },
+  {
+    slug: 'soc-lab-6-wazuh',
+    title: 'SOC Lab Rehberi Bölüm 6: Wazuh Dashboard ve İlk Agent Kurulumu',
+    excerpt: 'Bu bölümde, kurduğumuz bu devasa yapının içine girip, izlemek istediğimiz cihazları sisteme nasıl bağlayacağımızı göreceğiz.',
+    author: 'Güven Emre Keskin',
+  },
+  {
+    slug: 'soc-lab-5-ubuntu-wazuh',
+    title: 'SOC Lab Rehberi Bölüm 5: Ubuntu Server Üzerine Wazuh Kurulumu',
+    excerpt: 'Bu bölümde, laboratuvarımızdaki tüm olayları tek bir merkezden izlememizi sağlayacak olan Wazuh platformunu kuruyoruz.',
+    author: 'Güven Emre Keskin',
+  },
+  {
+    slug: 'soc-lab-4-ad',
+    title: 'SOC Lab Rehberi Bölüm 4: Active Directory',
+    excerpt: 'Bu bölümde, Windows Server 2022 makinesini bir Domain Controller yapısına dönüştürüyoruz.',
+    author: 'Güven Emre Keskin',
+  },
+  {
+    slug: 'soc-lab-3-winserver',
+    title: 'SOC Lab Rehberi Bölüm 3: Windows Server',
+    excerpt: 'Bu bölümde, laboratuvarın merkezi yönetim otoritesini, yani Windows Server 2022 kuruyoruz.',
+    author: 'Güven Emre Keskin',
+  }, 
+  {
     slug: 'soc-lab-2-windows11',
     title: 'SOC Lab Rehberi Bölüm 2: Windows 11',
     excerpt: 'Bu bölümde, pfSense’in koruması altındaki iç ağımızda (LAN) konumlanacak, saldırıları analiz edeceğimiz ve güvenlik araçlarımızı koşturacağımız Windows 11 makinesinin kurulumunu gerçekleştiriyoruz.',
