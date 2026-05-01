@@ -13,6 +13,7 @@ interface Blog {
 
 const blogs: Blog[] = [
   {
+<<<<<<< HEAD
     slug: 'lazarus',
     title: 'Lazarus Group (APT 38) Rapor Analizi',
     excerpt: 'Bu bölümde, kurduğumuz bu devasa yapının içine girip, izlemek istediğimiz cihazları sisteme nasıl bağlayacağımızı göreceğiz.',
@@ -43,17 +44,32 @@ const blogs: Blog[] = [
     author: 'Güven Emre Keskin',
   }, 
   {
+=======
+    slug: 'supply-chain-attacks',
+    title: 'Supply Chain Attacks on Software Dependencies',
+    excerpt: 'Attackers don’t hack your app—they poison what it trusts. A quick breakdown of how dependency-based supply chain attacks work, why they’re effective, and what the Axios npm compromise revealed.',
+    author: 'Matjaz Madon',
+  },
+  {
+    slug: 'emapt',
+    title: 'Siber Güvenlik Sertifikaları #3: eMAPT Sınavının Anatomisi',
+    excerpt: 'Webin kalabalık dünyasından sıyrılıp mobilin daha özel dünyasına adım atıyoruz. eMAPT sertifikasını tüm detayları ve Frida pratikleriyle inceliyoruz.',
+    author: 'Ozan İsmail Çolhak',
+  },
+  {
+>>>>>>> d99a0e30b648e64270887f7b4d3fe41509f899f2
     slug: 'soc-lab-2-windows11',
     title: 'SOC Lab Rehberi Bölüm 2: Windows 11',
     excerpt: 'Bu bölümde, pfSense’in koruması altındaki iç ağımızda (LAN) konumlanacak, saldırıları analiz edeceğimiz ve güvenlik araçlarımızı koşturacağımız Windows 11 makinesinin kurulumunu gerçekleştiriyoruz.',
     author: 'Güven Emre Keskin',
-  }, 
+  },
   {
     slug: 'soc-lab-1-pfsense',
     title: 'SOC Lab Rehberi Bölüm 1: pfSense Firewall',
     excerpt: 'Bu bölümde, SOC laboratuvarımızın ağ trafiğini yönetmek ve güvenliği sağlamak için pfSense firewall kurulumunu gerçekleştiriyoruz.',
     author: 'Güven Emre Keskin',
   },
+  
   {
     slug: 'analiz-sql',
     title: 'Bug Bounty Rapor Analizi : ownCloud Android — FileContentProvider SQL Injection',
